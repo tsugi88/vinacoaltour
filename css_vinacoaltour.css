@@ -563,6 +563,7 @@ margin: 0 auto 10px;
 max-width: 1140px;
 text-transform: uppercase;    
 }
+#block-views-tour-giahot-block-3 h2.block-title,
 #block-block-67 h2.block-title,
 #block-views-video-trangchu-block h2.block-title,
 #block-views-thongtinhuuich-trangchu-block h2.block-title,
@@ -828,6 +829,7 @@ float: left;
 font-size: 14px;
 padding-left: 15px;
 padding-top: 4px;    
+display:none;
 }
 #block-views-thongtinhuuich-trangchu-block .views-row{
 padding-left: 0;
@@ -836,8 +838,8 @@ margin-bottom:20px;
 }
 #block-views-thongtinhuuich-trangchu-block .xemthem{
 text-align:right;  
-position: relative;
-top: -13px;
+/*position: relative;
+top: -13px;*/
 }
 #block-views-thongtinhuuich-trangchu-block .xemthem span{
 color: #1596fc;
@@ -1142,4 +1144,190 @@ padding:21px 28px 7px 0;
 #block-views-thongtinhuuich-trangchu-block .tieude{
 position: relative;
 z-index: 99;    
+float:left;
+}
+/*=================== gia tour ==================== */
+.node-type-tour .num1 .giacu_1,
+.node-type-tour .num1 .giamoi{
+display:inline-block; 
+color:#d80d00;
+font-size:22px;
+font-weight:bold;
+margin-right:13px;
+position:relative;
+}
+.node-type-tour .num1 .giacu{
+display:inline-block;    
+position:relative;
+text-decoration:line-through;
+color:#888;
+}
+.node-type-tour .num1 .giacu span{
+font-size:11px;
+position:absolute;
+top:-5px;    
+}
+.node-type-tour .num1 .giacu_1 span,
+.node-type-tour .num1 .giamoi span{
+font-size:15px;
+position:absolute;
+top:-5px;
+}
+.group-tour-thongtinchitiettour .field-name-field-tour-diadiem,
+.group-tour-thongtinchitiettour .field-name-field-tour-khoihanh,
+.group-tour-thongtinchitiettour .field-name-field-tour-sochocon,
+.group-tour-thongtinchitiettour .field-name-field-tour-socho {
+width:50%;
+float:left;
+}
+.group-tour-thongtinchitiettour .field-name-field-tour-diadiem .field-label,
+.group-tour-thongtinchitiettour .field-name-field-tour-khoihanh .field-label,
+.group-tour-thongtinchitiettour .field-name-field-tour-sochocon .field-label,
+.group-tour-thongtinchitiettour .field-name-field-tour-socho .field-label{
+color: #333;
+float: left;
+font-size: 14px;
+margin-bottom: 10px;
+padding-right: 10px;
+width: 118px;
+}
+.group-tour-thongtinchitiettour{
+border-bottom: 1px solid #ddd;
+float: left;
+margin-bottom: 20px;
+padding-bottom: 20px;
+width: 100%;    
+padding-top:10px;
+}
+#block-system-main .group-tour-thongtinchung .group-div2 .group-tour-thongtinchitiettour{
+color:black;    
+}
+.group-tour-thongtinchitiettour .field-items{
+line-height:19px;    
+}
+#block-views-tour-giahot-block-3{
+background:white;    
+padding-bottom:28px;
+}
+#block-views-tour-giahot-block-3 .view-tour-giahot{
+max-width:1140px;    
+margin:0 auto;
+}
+#block-views-tour-giahot-block-3 .views-row{
+padding-left:0px;    
+margin-bottom:15px;
+}
+.not-front .view-tour-giahot .views-row{
+padding-left:0px;
+margin-bottom:15px;
+height: 377px;
+}
+.not-front .view-tour-giahot .thongtin .tieude a{
+font-size:15px;    
+}
+/*====================== danh sach tour ================ */
+.not-front .thongtin{
+border: 1px solid #ddd;
+/*padding: 10px 15px;*/   
+color:black;
+font-size:14px;
+}
+.not-front .thongtin .tieude a{
+color: black;
+font-size: 16px;
+font-weight: bold;
+text-transform: uppercase;    
+}
+.not-front .thongtin .tieude{
+padding-bottom:8px;    
+}
+.not-front .thongtin .glyphicon{
+color: #666;
+font-size: 12px;
+margin-right: 5px;
+}
+.not-front .thongtin .giacu_1,
+.not-front .thongtin .giamoi{
+display:inline-block; 
+color:#f7de00;
+font-size:22px;
+font-weight:bold;
+margin-right:13px;
+position:relative;
+}
+.not-front .thongtin .giacu{
+display:inline-block;    
+position:relative;
+text-decoration:line-through;
+color:#888;
+}
+.not-front .thongtin .giacu span{
+font-size:11px;
+position:absolute;
+top:-5px;    
+}
+.not-front .thongtin .giacu_1 span,
+.not-front .thongtin .giamoi span{
+font-size:15px;
+position:absolute;
+top:-5px;
+}
+.not-front .thongtin .noidung{
+padding:10px 15px;    
+line-height:22px;
+}
+.not-front .thongtin .giatour{
+border-top: 1px solid #ddd;    
+}
+.not-front .thongtin .giatour .gia{
+padding-left:15px;   
+float:left;
+padding-top:8px;
+}
+.not-front .thongtin .giatour .datngay{
+text-align:right;    
+}
+.not-front .thongtin .giatour .datngay a{
+background: #1596fe none repeat scroll 0 0;
+color: white;
+display: inline-block;
+font-weight: bold;
+padding: 13px 20px;
+text-decoration: none; 
+}
+.not-front .thongtin .giatour .gia_lienhe{
+color: #d80d00;
+font-size: 20px;
+font-weight: bold;
+text-transform: uppercase;    
+}
+.not-front .views-row{
+margin-bottom: 15px;
+padding-left: 0;    
+}
+.not-front .thongtin .tieude a{
+font-size:15px;    
+}
+.not-front .thongtin .tieude a:hover{
+color: #1596fe;
+text-decoration:none;
+}
+/*======== ket thuc ===================================== */
+.not-front .col-sm-8{
+padding-left:0px;    
+}
+.page-timkiem-nangcao h1.page-header{
+border-bottom: 1px solid #ddd;
+border-left: 5px solid #d00000;
+color: #37474f;
+font-size: 25px;
+font-weight: 600;
+margin-bottom: 15px;
+margin-right: 15px;
+margin-top: 22px;
+padding-bottom: 10px;
+padding-left: 15px;
+text-transform: uppercase;
+background:initial;
+display:block;
 }
