@@ -1128,7 +1128,7 @@ box-shadow: initial;
 display: block;
 position: initial;    
 }
-span.caret{
+#block-tb-megamenu-main-menu ul li  ul li a span.caret{
 display:none;    
 }
 #block-block-35 ul li a.dropdown-toggle{
@@ -1139,7 +1139,7 @@ margin-bottom: 5px;
 margin-top:5px;
 }
 .chrome #block-tb-megamenu-main-menu .nav-collapse > ul > li > a{
-padding:21px 28px 7px 0;    
+padding:21px 0 7px;    
 }
 #block-views-thongtinhuuich-trangchu-block .tieude{
 position: relative;
@@ -1316,6 +1316,7 @@ text-decoration:none;
 .not-front .col-sm-8{
 padding-left:0px;    
 }
+.page-ds-khach-san h1.page-header,
 #webform-client-form-791 h2,
 .page-taxonomy-term h1.page-header,
 .page-timkiem-nangcao h1.page-header{
@@ -1364,27 +1365,37 @@ margin-right:0px;
 clear:both;    
 }
 .page-thongtin-huuich h1.page-header{
-background: #1596fe none repeat scroll 0 0;
-color: white;
+background: initial;
+border-bottom: 1px solid #ddd;
+border-left: 5px solid #d00000;
+color: #37474f;
 display: block;
-font-size: 28px;
-margin-top: 15px;
-padding: 28px 20px;
-text-align: center;
+font-size: 25px;
+font-weight: 600;
+margin-bottom: 15px;
+margin-right: 15px;
+margin-top: 22px;
+padding-bottom: 10px;
+padding-left: 15px;
+padding-top: 0;
+text-align: left;
 text-transform: uppercase;    
 }
 .not-front .footer.container-fluid{
 margin-top:28px;    
 }
+#views-exposed-form-thongtinhuuich-trangchu-page-2 .views-exposed-form .form-submit,
 #views-exposed-form-thongtinhuuich-trangchu-page-1 .views-exposed-form .form-submit{
 background: #f09b02 none repeat scroll 0 0;
 border: 1px solid #ddd;
 color: white;
 margin-top: 0;    
 }
+#views-exposed-form-thongtinhuuich-trangchu-page-2,
 #views-exposed-form-thongtinhuuich-trangchu-page-1{
 margin-bottom:28px;    
 }
+#views-exposed-form-thongtinhuuich-trangchu-page-2 .form-text,
 #views-exposed-form-thongtinhuuich-trangchu-page-1 .form-text{
 width:488px;    
 }
@@ -1438,4 +1449,316 @@ padding:0px;
 }
 .view-tin-danh-muc-cha{
 margin-top:0px;    
+}
+#views-exposed-form-thongtinhuuich-trangchu-page-2 #edit-combine-wrapper{
+float:left;    
+}
+.view-thongtinhuuich-trangchu .view-filters{
+clear:both;    
+}
+.view-khachsan-danhsach  #autodialog-1,
+.view-thongtinhuuich-trangchu #autodialog-1{
+background-color: #007abe;
+color: #fff;
+display: block;
+font-size: 17px;
+font-weight: 600;
+padding: 15px 45px;
+text-align: center;
+text-decoration: none;
+text-transform: uppercase;
+}
+.view-khachsan-danhsach .view-header,
+.view-thongtinhuuich-trangchu .view-header{
+padding-right:15px;    
+}
+.view-khachsan-danhsach .dk-div-news,
+.view-thongtinhuuich-trangchu .dk-div-news{
+border-bottom: 1px dotted #ddd;
+float: left;
+margin-bottom: 20px;
+padding-bottom: 15px;
+width: 100%;    
+}
+.field-name-field-khachsan-albumanh .field-item{
+float: left;
+padding-right: 15px;
+width: 20%; 
+margin-bottom:15px;
+}
+.group-khachsan-hienthi .group-khachsan-col1{
+padding-left:0;    
+}
+.node-khachsan .field-name-field-khachsan-albumanh {
+float: left;
+margin-top: 20px;
+width: 100%;    
+}
+.node-type-khachsan h1.page-header{
+background: initial;
+border-bottom: 1px solid #ddd;
+border-left: 5px solid #d00000;
+color: #37474f;
+font-size: 25px;
+font-weight: 600;
+margin-bottom: 15px;
+margin-right: 15px;
+margin-top: 22px;
+padding-bottom: 10px;
+padding-left: 15px;
+padding-top: 0;
+text-align: left;
+text-transform: uppercase;       
+}
+.node-khachsan .field-name-field-khachsan-tongquan{
+clear:both;    
+}
+.group-khachsan-hienthi {
+float: left;
+margin-bottom: 15px;
+width: 100%;    
+}
+.node-khachsan .field-name-field-khachsan-tongquan .field-label{
+margin-bottom: 8px;    
+}
+.node-khachsan .group-khachsan-col2 .field-label{
+float: left;
+width: 105px;    
+}
+.node-khachsan .group-khachsan-col2 .field-label-above{
+margin-bottom:8px;    
+}
+.node-khachsan .group-khachsan-col2 .field-name-field-khachsan-giatu .field-label{
+display:none;    
+}
+.node-khachsan .group-khachsan-col2 .field-name-field-khachsan-giatu{
+background: #fcfcfc none repeat scroll 0 0;
+color: #d80d00;
+font-size: 28px;
+font-weight: bold;
+padding: 15px;    
+margin-bottom: 10px;
+}
+body .field-name-body h2{
+font-size:18px;    
+margin-top:5px;
+}
+.field-name-field-news-tieude h4{
+margin-bottom: 10px !important;    
+}
+.field-name-field-banner-khachsan{
+margin-bottom:28px;    
+}
+.group-khachsan-col2 .field-name-field-banner-tieude{
+margin-bottom:10px;    
+}
+.group-khachsan-col2 .field-name-field-banner-tieude .tieude{
+font-size: 22px;
+font-weight: bold;
+text-transform: uppercase;    
+color: #005ba1;
+}
+.group-khachsan-col2 .field-label{
+color: #888;
+float: left;
+font-size: 13px;
+font-weight: bold;
+width: 138px;
+}
+.group-khachsan-col2 .field-item{
+font-size:14px;    
+}
+.group-khachsan-col2 .field-name-field-khachsan-giatu  .field-item {
+font-size:28px;    
+}
+.node-khachsan .group-khachsan-col2{
+/*padding-left:0;  */  
+}
+#___plus_0{
+position:relative;
+top:4px;
+}
+.field-name-field-khachsan-datphong{
+text-align:right;    
+}
+.field-name-field-khachsan-datphong a{
+background: #005ba1 none repeat scroll 0 0;
+color: white;
+display: inline-block;
+font-weight: bold;
+padding: 10px 15px;
+text-decoration: none;
+text-transform: uppercase;    
+}
+.field-name-field-khachsan-datphong a:hover{
+opacity:0.95;    
+color: white;
+}
+.view-khachsan-danhsach .thongtinchung .views-field-title-body-node {
+padding-left:15px;    
+}
+.field-name-field-khachsan-chiase {
+float: left;
+position: relative;
+top: -28px;    
+}
+.group-khachsan-col1 .field-name-field-khachsan-anhdaidien img{
+box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.22);
+padding: 5px;    
+}
+#block-views-khachsankhac-block img{
+box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.22);
+padding: 5px;    
+}
+#block-views-khachsankhac-block h2.block-title{
+border-bottom: 1px solid #ddd;
+border-left: 5px solid #d00000;
+font-size: 25px;
+font-weight: bold;
+margin-bottom: 10px;
+padding-bottom: 5px;
+padding-left: 15px;
+text-transform: uppercase;  
+margin-right:15px;
+}
+#block-views-khachsankhac-block .tieude{
+padding-top: 8px;    
+}
+#block-views-khachsankhac-block .tieude a{
+font-size: 12px;
+font-weight: bold;
+text-transform: uppercase;  
+}
+#block-tb-megamenu-main-menu ul li ul li:hover .tb-megamenu-submenu.dropdown-menu{
+display:block !important;    
+}
+#block-tb-megamenu-main-menu ul li ul li {
+position:relative;    
+}
+#block-tb-megamenu-main-menu ul li ul li .tb-megamenu-submenu.dropdown-menu{
+border: initial;
+box-shadow: initial;
+left: 100%;
+padding: 0;
+top: 0;
+}
+#block-tb-megamenu-main-menu ul li ul li a:hover{
+text-decoration:none;    
+}
+#tb-megamenu-column-5 {
+padding:0px;    
+}
+#tb-megamenu-column-5 .tb-megamenu-column-inner{
+float:right;    
+}
+.view-tour-menu .thongtin{
+background: rgba(0, 0, 0, 0.79) none repeat scroll 0 0;
+bottom: 0;
+color: white;
+position: absolute;
+width: 100%;    
+padding:10px;
+}
+.view-tour-menu .noidung{
+position: relative;    
+}
+.view-tour-menu .datngay{
+background: red none repeat scroll 0 0;
+bottom: 10px;
+position: absolute;
+right: 10px;
+z-index: 999;    
+}
+.view-tour-menu .thongtin .tieude a{
+color:white !important;   
+text-decoration:none;
+}
+.view-tour-menu .thongtin .giacu_1,
+.view-tour-menu .thongtin .giamoi{
+display:inline-block; 
+color:#f7de00;
+font-size:22px;
+font-weight:bold;
+margin-right:13px;
+position:relative;
+}
+.view-tour-menu .thongtin .giacu{
+display:inline-block;    
+position:relative;
+text-decoration:line-through;
+color:#888;
+}
+.view-tour-menu .thongtin .giacu span{
+font-size:11px;
+position:absolute;
+top:-5px;    
+}
+.view-tour-menu .thongtin .giacu_1 span,
+.view-tour-menu .thongtin .giamoi span{
+font-size:15px;
+position:absolute;
+top:-5px;
+}
+.view-tour-menu .thongtin .tieude a:hover{
+color:#1596fe;    
+}
+.view-tour-menu .datngay a{
+color: white !important; 
+display: block !important; 
+font-size: 12px !important; 
+font-weight: bold !important; 
+padding: 5px 10px !important; 
+text-transform: initial !important; 
+}
+.view-tour-menu .khoihanh{
+padding-top:7px;    
+}
+.view-tour-menu .khoihanh span{
+padding-right:5px;    
+}
+#block-tb-megamenu-main-menu ul li ul li ul li a{
+text-transform: initial;   
+}
+#tb-megamenu-column-4{
+padding:0px;    
+}
+#block-tb-megamenu-main-menu ul li ul li a{
+border-bottom: 1px solid white;
+padding-left: 0;    
+}
+#block-tb-megamenu-main-menu ul li ul li .tb-megamenu-submenu.dropdown-menu{
+margin-left:18px;    
+}
+#tb-megamenu-column-12 {
+padding:0px;    
+}
+#tb-megamenu-column-12 .tb-megamenu-column-inner{
+float:right;    
+}
+#tb-megamenu-column-11{
+padding:0px;    
+}
+#block-tb-megamenu-main-menu ul li {
+position:relative !important;    
+}
+#block-tb-megamenu-main-menu .tb-megamenu-submenu.dropdown-menu{
+background:#1596fe;  
+border-radius: 0;
+}
+#block-tb-megamenu-main-menu ul li li a{
+color:white;    
+}
+#block-tb-megamenu-main-menu ul li ul li a:hover{
+color:white;    
+}
+#block-tb-megamenu-main-menu ul li ul li a.dropdown-toggle{
+ background: rgba(0, 0, 0, 0) url("/images/vinacoaltour/next-menu.jpg") no-repeat scroll right center !important;   
+}
+#navbar.navbar-fixed-top{
+position:fixed !important;
+top:0;
+box-shadow:1px 1px 2px #999;
+}
+.node-type-tour #flexslider-1 .flex-control-nav{
+height:auto;    
 }
