@@ -446,9 +446,9 @@ margin-top:33px;
 #block-block-62 ul#myTabs li.active a{
 background-color: #005ba1;
 color: white;
-font-size: 14px;
+font-size: 12px;
 font-weight: bold;
-padding: 8px 12px;    
+padding: 8px 10px;    
 }
 #block-block-62 ul#myTabs{
 border:initial;    
@@ -458,9 +458,9 @@ margin-bottom:0;
 border:initial;    
 background:rgba(0,0,0,0.42);
 color: white;
-font-size: 14px;
+font-size: 12px;
 font-weight: bold;
-padding: 8px 12px;   
+padding: 8px 10px;   
 }
 #myTabContent .profile{
 font-style: italic;  
@@ -509,7 +509,7 @@ padding-top:10px;
 #block-block-62 .attachment .giatu{
 font-size: 12px;
 font-weight: bold; 
-color:#EB726C;
+color:#E94D10;
 }
 #block-block-62 .attachment .tieude{
 padding-bottom:8px;    
@@ -594,6 +594,7 @@ border: 1px solid #ddd;
 /*padding: 10px 15px;*/   
 color:black;
 font-size:14px;
+clear:both;
 }
 .view-tour-giahot .thongtin .tieude a{
 color: black;
@@ -705,7 +706,7 @@ text-decoration:none;
 color:#1596fe;    
 }
 .view-tour-giahot .anh_tour img:hover{
-filter: grayscale(100%);
+/*filter: grayscale(100%);*/
 }
 #block-block-64 h2.block-title{
 font-size: 25px;
@@ -1322,6 +1323,7 @@ text-decoration:none;
 .not-front .col-sm-8{
 padding-left:0px;    
 }
+.page-timkiem-tourdulich h1.page-header,
 .page-ds-khach-san h1.page-header,
 #webform-client-form-791 h2,
 .page-taxonomy-term h1.page-header,
@@ -1981,4 +1983,405 @@ margin-right:8px;
 }
 #node-1224{
 line-height:22px;    
+}
+#edit-field-sukien-tieude-makeup{
+margin-bottom: 15px;
+padding-left: 15px;
+padding-right: 15px;    
+}
+#edit-field-sukien-ngayve .panel-body,
+#edit-field-sukien-ngaykh .panel-body{
+padding:10px;    
+}
+#edit-field-sukien-ngayve .panel-body .date-no-float,
+#edit-field-sukien-ngaykh .panel-body .date-no-float{
+margin-bottom:0;    
+width:100%;
+}
+#edit-field-sukien-ngayve .panel-body .date-padding,
+#edit-field-sukien-ngaykh .panel-body .date-padding{
+padding:0;    
+width:100%;
+}
+#edit-field-sukien-ngayve .form-text,
+#edit-field-sukien-ngaykh .form-text {
+width:100%;    
+}
+#edit-field-sukien-ngayve .form-type-textfield,
+#edit-field-sukien-ngaykh .form-type-textfield {
+margin-bottom:0;   
+width:100%;
+}
+#dang-ky-su-kien-node-form label{
+display:none;    
+}
+#edit-field-sukien-nhom-khach, #edit-field-sukien-hoten, #edit-field-sukien-ghichu, #edit-field-sukien-tinhtrang, #edit-field-sukien-link{
+padding-left: 15px;
+padding-right: 15px;    
+}
+#field-sukien-tieude-makeup-add-more-wrapper{
+background-color: #f4f8fa;
+padding: 10px;   
+color: #64c0df;
+font-size: 17px;
+}
+#edit-field-sukien-khachsan{
+display:none;    
+}
+#block-tb-megamenu-main-menu ul li[data-id="863"] .tb-megamenu-submenu.dropdown-menu{
+padding:0px;    
+}
+#block-tb-megamenu-main-menu ul li[data-id="863"] .tb-megamenu-submenu.dropdown-menu ul li a{
+padding-left: 10px;
+padding-right: 10px;    
+}
+#block-tb-megamenu-main-menu ul li[data-id="863"] .tb-megamenu-submenu.dropdown-menu ul li a:hover{
+opacity:0.88;    
+}
+.node-type-tour .footer.container-fluid{
+margin-top:0;    
+}
+.node-khachsan .field-name-field-khachsan-tieuchuan{
+float: left;
+width: 100%;    
+}
+.node-khachsan .field-name-field-khachsan-giatu{
+clear:both;    
+}
+#block-block-62 ul#myTabs li.tinkhuyenmai a{
+background:initial;    
+padding:0px;
+font-size:12px; 
+color: #005ba1;
+font-weight:bold;
+}
+#block-block-62 .km{
+display:inline-block;    
+}
+#block-block-62 .km {
+font-size:12px;    
+ color: red;
+}
+#block-block-62 ul#myTabs li.tinkhuyenmai{
+padding:2px 10px;    
+}
+#block-block-62 ul#myTabs li.tinkhuyenmai .tieuchuan{
+position: relative;
+top: 3px;    
+}
+#block-block-62 ul#myTabs li.tinkhuyenmai .giatu{
+position: relative;
+top: 2px;    
+}
+#ui-datepicker-div{
+display:none;    
+}
+#vemaybay_vina h2{
+background-color: #216cbd;
+color: #fff;
+font-size: 16px;
+font-weight: bold;
+height: 35px;
+line-height: 35px;
+padding-left: 10px;
+vertical-align: middle;    
+margin-top:0;
+}
+#vemaybay_vina .radio{
+margin-left: 22px;    
+}
+#vemaybay_vina .radio label{
+padding-left:0;    
+}
+#vemaybay_vina .radio span{
+margin-right:38px;    
+}
+.front .highlighted{
+position:relative;    
+}
+#block-block-70{
+position: absolute;
+top: 0;
+width: 100%;    
+}
+#block-block-70 .timkiem_trangchu{
+margin: 35px auto 0;
+max-width: 1170px;    
+}
+#block-block-69,
+#block-views-exp-timkiemnangcao-page-1{
+background: #005ba1 none repeat scroll 0 0;
+color: white;  
+padding: 10px 25px;
+}
+#block-block-70 #myTabs1{
+margin-bottom:0;    
+border:initial;
+}
+#block-block-70 #myTabs1 li.active a{
+background: #005ba1 none repeat scroll 0 0;
+border: initial;
+color: white;    
+}
+#block-block-70 #myTabs1 li a{
+background: rgba(0, 0, 0, 0.22) none repeat scroll 0 0;
+border: initial;
+color: white; 
+font-weight:bold;
+font-size:18px;
+}
+.front .ui-tooltip{
+display:none;    
+}
+#block-block-70 #edit-field-tour-diemden-tid-wrapper label{
+display:block !important;    
+}
+#views-exposed-form-timkiemnangcao-page-1 .views-exposed-widget{
+width:50%;
+display:inline-block;
+}
+#block-block-70 .noidung{
+max-width: 515px;    
+}
+#views-exposed-form-timkiemnangcao-page-1 .form-type-select{
+width:100%;   
+}
+#views-exposed-form-timkiemnangcao-page-1 .form-select{
+background: initial !important;
+border: 1px solid white;
+color: white;   
+box-shadow:initial;
+}
+#views-exposed-form-timkiemnangcao-page-1 .form-submit{
+background: #1596fe none repeat scroll 0 0;
+float: right;
+font-size: 18px;
+font-weight: bold;
+margin: 10px 0 0;
+padding: 10px 35px;
+text-transform: uppercase;    
+}
+#views-exposed-form-timkiemnangcao-page-1 .views-submit-button{
+width: 100%;    
+}
+#views-exposed-form-timkiemnangcao-page-1 .views-exposed-widget label{
+font-size: 14px;
+font-weight: normal;    
+}
+#views-exposed-form-timkiemnangcao-page-1 .form-text{
+background: initial;
+border: 1px solid white;    
+width:100%;
+color:white;
+}
+#views-exposed-form-timkiemnangcao-page-1 .form-type-textfield{
+margin-right:0px;    
+}
+#views-exposed-form-timkiemnangcao-page-1 .form-type-date-popup{
+margin-right:0;    
+}
+#views-exposed-form-timkiemnangcao-page-1 #edit-field-tour-khoanggia-tid-wrapper,
+#views-exposed-form-timkiemnangcao-page-1 #edit-field-tour-songay-tid-wrapper,
+#views-exposed-form-timkiemnangcao-page-1 #edit-field-tour-loaitour-tid-wrapper{
+padding-right:0;
+}
+#block-block-69 #vemaybay_vina h2{
+background:initial;
+padding-left:0;
+}
+#block-block-69 .radio label{
+font-size: 12px;
+font-weight: bold;    
+}
+#block-block-69 select{
+background: initial !important;
+border: 1px solid white;
+color: white;    
+}
+#block-block-69 .form-submit{
+background: #1596fe none repeat scroll 0 0;
+float: right;
+font-size: 18px;
+font-weight: bold;
+margin: 10px 0 0;
+padding: 10px 35px;
+text-transform: uppercase;    
+}
+#views-exposed-form-timkiemnangcao-page-1 .views-submit-button{
+padding-right:0;    
+}
+#block-block-69 #btnOk{
+background: #1596fe none repeat scroll 0 0;
+border: initial;
+box-shadow: initial;
+float: right;
+font-size: 11px;
+font-weight: bold;
+height: auto !important;
+margin: 8px 0 0;
+padding: 9px 15px;
+text-transform: uppercase;
+width: auto !important;
+}
+#block-block-69 .From1{
+margin-bottom:10px;    
+}
+#block-block-69 .From1 select{
+padding: 8px 10px;
+width: 382px;    
+}
+#block-block-69 .thoigian{
+float:left;
+width: 50%;    
+margin-bottom:10px;
+}
+#block-block-69 .thoigian input{
+background: initial;
+border: 1px solid white;
+padding: 8px 10px 9px;    
+width:150px;
+}
+#block-block-69 .From1 span{
+padding:12px 5px; 
+}
+#block-block-69 .From1 .label{
+-moz-border-bottom-colors: none;
+-moz-border-left-colors: none;
+-moz-border-right-colors: none;
+-moz-border-top-colors: none;
+border-bottom: 1px solid white;
+border-image: none;
+border-right: initial;
+border-top: 1px solid white;
+display: block;
+float: left;
+font-family: arial;
+font-size: 13px;
+padding: 12px 5px 13px;
+width: 79px;  
+background: rgba(0, 0, 0, 0.2) none repeat scroll 0 0;
+border-left: 1px solid white;
+color: white;
+}
+#block-block-69 .thoigian .label{
+-moz-border-bottom-colors: none;
+-moz-border-left-colors: none;
+-moz-border-right-colors: none;
+-moz-border-top-colors: none;
+border-bottom: 1px solid white;
+border-image: none;
+border-right: initial;
+border-top: 1px solid white;
+display: block;
+float: left;
+font-family: arial;
+font-size: 13px;
+padding: 12px 5px 13px;
+width: 79px;   
+background: rgba(0, 0, 0, 0.2) none repeat scroll 0 0;
+border-left: 1px solid white;
+color: white;
+}
+#block-block-69 .Adult .dotuoi{
+width:27%;
+float:left;
+margin-bottom:10px;
+}
+#block-block-69 .Adult .dotuoi span{
+color: white;
+display: block;
+font-family: arial;
+font-size: 14px;
+margin-bottom: 8px;
+padding-left: 0;
+text-align: left;    
+}
+#block-block-69 .Adult select{
+padding: 5px 10px;
+width: 95%;    
+}
+#block-block-69 .timkiem .label{
+color:transparent;    
+}
+#block-block-69 .Adult{
+clear:both;    
+}
+#profile #block-views-khachsan-trangchu-block-1{
+font-style:initial;    
+}
+#block-views-khachsan-trangchu-block-1 .attachment .views-row{
+border-bottom: 1px dotted #ddd;
+float: left;
+margin-bottom: 10px;
+padding-bottom: 10px;    
+}
+#block-views-khachsan-trangchu-block-1 .datngay{
+margin-left: 5px;  
+float:right;
+}
+#block-views-khachsan-trangchu-block-1 .datngay a{
+background: #005ba1 none repeat scroll 0 0;
+color: white;
+font-size: 11px;
+font-weight: bold;
+padding: 5px 8px;  
+}
+#block-views-khachsan-trangchu-block-1 .view-footer{
+clear:both;    
+}
+#block-views-khachsan-trangchu-block-1 .view-footer .tracuu{
+width:47%;
+float:left;
+margin-right:10px;
+text-align:center;
+}
+#block-views-khachsan-trangchu-block-1 .view-footer .dangky{
+width:50%;
+float:left;
+text-align:center;
+}
+#block-views-khachsan-trangchu-block-1 .view-footer .tracuu a{
+border: 2px solid #1596fe;
+color: #1596fe;
+display: block;
+font-size: 12px;
+font-weight: bold;
+line-height: 18px;
+padding: 5px;
+text-transform: uppercase;
+text-decoration:none;
+}
+#block-views-khachsan-trangchu-block-1 .view-footer .dangky a{
+background: #e5e5e5 none repeat scroll 0 0;
+border: 2px solid #e5e5e5;
+color: #777;
+display: block;
+font-size: 12px;
+font-weight: bold;
+line-height: 18px;
+padding: 5px 18px;
+text-transform: uppercase;
+text-decoration:none;
+}
+body.not-logged-in{
+padding-top:88px !important;    
+}
+.not-logged-in header#navbar{
+position:fixed !important; 
+box-shadow:1px 1px 1px #ccc
+}
+#block-block-69 select optgroup,
+#block-block-69 select option,
+#block-views-exp-timkiemnangcao-page-1 select option{
+background:#005ba1;
+}
+#block-views-exp-timkiemnangcao-page-1 select{
+outline:0px;
+box-shadow:initial;
+}
+#edit-field-tour-socho{
+clear:both;    
+}
+.view-tour-giahot .thongtin{
+margin-bottom:10px;    
 }
