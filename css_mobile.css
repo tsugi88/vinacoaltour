@@ -1,0 +1,480 @@
+﻿@media screen and (max-width:800px){
+    .not-front .main-container h1.page-header{
+        font-size: 18px;
+        margin-bottom: 10px !important;
+        margin-right: 0;
+    }
+    .node-type-vemaybay .col-sm-12{
+        padding-left:10px;
+        padding-right:10px;
+        text-align: justify;
+    }
+    .not-front .col-sm-8{
+       padding-right:10px !important;
+       padding-left:10px !important;
+    }
+    .not-front .view-tour-giahot .views-row{
+        padding-right:0 !important;
+    }
+    .not-front .main-container h1.page-header{
+        margin-bottom: 0 !important;
+        margin-top: 0 !important;
+        padding: 10px !important;
+    }
+    .not-front .view-tour-giahot .views-row{
+        padding-right:0;
+    }
+    .group-tour-thongtinchitiettour .horizontal-tabs{
+        margin-top:0;
+    }
+    #group-hanhtrinh-id h4.panel-title a{
+        line-height:28px;
+    }
+    .field-name-field-facebook-comment {
+        clear:both;
+    }
+    .group-tour-thongtinchitiettour .horizontal-tabs ul.horizontal-tabs-list li{
+        background:#f3f3f3;    
+    }
+    .node-tour .horizontal-tabs ul.horizontal-tabs-list li.selected,
+    .node-tour .horizontal-tabs ul.horizontal-tabs-list li.selected a{
+        background:#0090f3;
+    }
+    .horizontal-tabs ul.horizontal-tabs-list li.selected a strong{
+        color:white;
+    }
+    .group-col11 .chiase {
+        height:25px;
+        margin-bottom: 5px;
+    }
+   .group-col11 .fb_iframe_widget{
+       float:left;
+   }
+   .group-col11 #___plusone_0{
+        position:initial;
+    }
+    .group-tour-thongtinchung .group-col11{
+        padding-right:0;
+    }
+    .group-thongtintourht .group-tour-col1{
+        padding-right:0;
+    }
+    .node-tour .group-tour-thongtinchung .group-col1{
+        padding-right:0px;
+    }
+    .node-tour .noidungtour{
+        padding: 0 10px 10px; 
+    }
+    .view-tour-giahot .thongtin .tieude a{
+        font-size:14px;
+    }
+    #block-views-tour-giahot-block h2.block-title{
+        padding-left:10px;
+    }
+    #block-block-70 .noidung{
+        max-width: initial;
+    }
+    body .mean-container .mean-bar{
+        width: 28%;
+        float:right;
+    }
+   .not-logged-in header#navbar{
+        position:initial !important;
+        box-shadow:initial !important;
+    }
+    body.not-logged-in{
+        padding-top:0 !important;
+    }
+    #block-block-7{
+        position:absolute;
+        top:0;
+        z-index: 999999;
+    }
+    #block-block-15{
+        padding-top:12px;
+        padding-left:10px;
+    }
+     #block-block-15 img{
+        width:88px;
+     }
+     #block-block-70{
+        position:initial; 
+     }
+     #block-block-60 .text h4 a{
+         background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
+         color: white;
+         display: inline-block;
+         font-size: 15px;
+         font-weight: bold;
+         line-height: 40px;
+         margin: 5% auto 0;
+         padding: 2px 17px;
+         position: relative;
+         text-decoration: none;
+         text-transform: uppercase;
+     }
+     #block-block-60 .text .mota{
+        font-size:10px; 
+     }
+     #block-block-60 .aoanh{
+        background:initial;
+        display:none;
+     }
+     #block-block-60 .banner-tg img{
+        height: auto;
+        object-fit: initial;
+     }
+     #block-block-60 .banner-tg .text img{
+         display:none;
+     }
+     #block-block-60 .text .noidung{
+        display:none; 
+     }
+     .carousel-inner > .item.next.left, .carousel-inner > .item.prev.right, .carousel-inner > .item.active, .carousel-inner > .item.next.left, .carousel-inner > .item.prev.right, .carousel-inner > .item.active, .carousel-inner > .item{
+         height:auto !important;
+     }
+     #block-block-68 .chapnhanthanhtoan,
+     #block-block-68 .lienhecuoi{
+        width:100%; 
+     }
+     #block-nodeblock-1193 img{
+         max-width:288px;
+     }
+     #block-block-66 .tuvan{
+         padding-left:15px;
+     }
+     #block-views-visao-chonvinacoaltour-block h2{
+         text-align:center;
+     }
+     #block-views-visao-chonvinacoaltour-block .view-header{
+         width:100%;
+     }
+     #block-views-visao-chonvinacoaltour-block .view-content{
+         width:100%;
+     }
+     #block-block-35 .menu1{
+        width:50% !important; 
+     }
+     #block-block-70 #myTabs1 li a{
+         font-size:13px;
+     }
+     #block-block-61 .thongtintour{
+         padding:10px;
+     }
+     #block-block-61 .giatot .lh{
+         font-size:12px;
+     }
+     #block-block-61 .giatot a{
+        padding: 5px 10px; 
+     }
+     #block-block-61 .giatot .cogiatot{
+        font-size:10px; 
+     }
+     #block-views-tourgiochot-block h2{
+         font-size:18px;
+     }
+     #block-block-61 .hanchot .thoigian{
+         font-size:14px;
+     }
+     #block-block-61 .hanchot .sochocon{
+        font-size:15px; 
+     }
+     #block-views-exp-timkiemnangcao-page-1{
+          padding: 10px 5px;
+     }
+     #views-exposed-form-timkiemnangcao-page-1 .form-submit{
+        background: #1596fe none repeat scroll 0 0;
+        float: right;
+        font-size: 15px;
+        font-weight: normal;
+        margin: 10px 0 0;
+        padding: 8px 20px;
+        text-transform: uppercase;
+     }
+     #block-block-69 .From1 select{
+        width: 228px; 
+     }
+     #block-block-69 .thoigian input{
+          font-size: 13px;
+          padding: 8px 10px 9px;
+          width: 88px; 
+     }
+     #block-block-69 .thoigian .label{
+         font-size: 10px;
+         padding: 12px 3px 13px;
+         width: 60px;
+     }
+     #block-block-69 .Adult .dotuoi span{
+        font-size: 11px; 
+     }
+     #block-block-69 .timkiem .label{
+         font-size:5px;
+     }
+     #block-block-69 #btnOk{
+        margin: 3px 0 0;
+        padding: 10px 6px;
+        font-size:9px;
+     }
+     #block-block-70 .timkiem_trangchu{
+        margin: 10px auto 0;
+     }
+     #block-block-69{
+        padding: 10px;
+     }
+     #block-block-69 .From1 .label{
+         width:68px;
+     }
+     #block-block-61 .tieude a{
+         font-size:15px;
+     }
+     #block-block-61 .thongtintour{
+         line-height:22px;
+     }
+     #block-block-61 .hanchot{
+         padding:10px;
+     }
+     #block-block-61 .thongtintour .khoihanh{
+         font-size:10px;
+     }
+     #block-block-61 .thongtintour .giamoi{
+         font-size:17px;
+     }
+     #block-views-tourgiochot-block h2 span{
+         font-size:8px;
+     }
+     #block-views-tourgiochot-block h2 span{
+         top:-2px;
+     }
+     #block-block-61 .giatot .cogiatot{
+         display:none !important;
+     }
+     #block-block-61 .giatot{
+         bottom:35px;
+     }
+     #block-block-61 #flexslider-1 .flex-control-nav{
+         top:10px;
+     }
+     #block-block-61 .hanchot .sochocon{
+         font-size: 13px;
+     }
+     #block-block-61 .hanchot .sochocon span{
+         font-size:18px;
+     }
+     #block-block-61 .hanchot{
+         padding:20px 10px 10px;
+     }
+     #block-views-khachsan-trangchu-block-1 .view-footer .dangky a{
+         padding:5px;
+     }
+     #block-views-khachsan-trangchu-block-1 .view-footer .tracuu{
+         margin-right:5px;
+     }
+     .view-tour-giahot .slick-slide{
+         width:300px;
+     }
+     .view-tour-giahot .slick-next .slick-prev,
+     .view-tour-giahot .slick-next{
+         display:inline-block !important;
+     }
+     .view-tour-giahot .slick-prev,.view-tour-giahot .slick-next{
+         top:25%;
+     }
+     .view-tour-giahot .thongtin .tieude{
+         padding-bottom:0;
+     }
+     .view-tour-giahot .thongtin .giacu_1, .view-tour-giahot .thongtin .giamoi{
+         font-size:18px;
+     }
+     .view-tour-giahot .thongtin .giatour .gia{
+         padding-left:5px;
+     }
+     .view-tour-giahot .lienket .lichkhoihanh{
+        margin-right:15px; 
+     }
+     .view-tour-giahot .lienket{
+         font-size:14px;
+     }
+     .view-tour-giahot .lienket{
+         padding-left:15px;
+         padding-right:15px;
+     }
+     .front .block-views h2{
+         padding-left:15px;
+     }
+     #block-views-tourgiochot-block h2{
+         padding-left:0;
+     }
+     #block-views-tour-giahot-block-2 .slick-dotted.slick-slider{
+         margin-bottom:0;
+     }
+     #block-block-65 .view2.slick-slide{
+         width:300px;
+     }
+     #block-block-65 .view1.slick-slide{
+         width:300px;
+     }
+     #block-block-65 .anh2 img{
+         height:170px;
+     }
+     #block-block-65 .anh2 .noidung .thongtin a{
+         padding-top: 20%;
+     }
+     #block-views-thongtinhuuich-trangchu-block .lienket ul{
+         padding-left:18px;
+         float:left;
+     }
+     #block-views-thongtinhuuich-trangchu-block .lienket ul li{
+        float: left;
+        margin-right: 10px;
+     }
+     #block-views-thongtinhuuich-trangchu-block .views-row{
+         padding-right:0;
+     }
+     #block-block-67 h2{
+         margin-left:15px;
+     }
+     #block-views-gocluhanh-block-1 img{
+         width:100%;
+     }
+     #block-views-video-trangchu-block .xemtatca{
+         padding-right: 15px;
+     }
+     #block-views-quangcaocuoi-trangchu-block .views-row img{
+         height:auto;
+         margin-bottom:10px;
+     }
+     #block-views-khachhangchiase-block .view-header{
+       float: left;
+        padding-right: 20px;
+       text-align: left;
+        width: 100%;
+     }
+     #block-views-khachhangchiase-block .view-content{
+         width:100%;
+     }
+     #block-views-visao-chonvinacoaltour-block h2{
+         font-size:17px;
+         text-align:center;
+     }
+     #block-block-66 .guiyeucau{
+        padding-bottom: 10px;
+        padding-left: 2px;
+        padding-top: 8px;
+     }
+     #block-block-35{
+       padding-left: 10px;
+       padding-right: 10px;
+     }
+     #block-block-35 .menu_cuoi4{
+         display:none;
+     }
+     #block-block-35 h2.block-title{
+         font-size:11px;
+     }
+     #block-block-68{
+         padding-left:10px;
+         padding-right:10px;
+     }
+     #block-nodeblock-1194 .copy_right{
+         float:initial;
+     }
+     #block-nodeblock-1194 .vinno{
+         text-align:left;
+     }
+     #block-nodeblock-1194{
+         line-height:22px;
+         padding-top:10px;
+         padding-left:10px;
+         padding-left:10px;
+     }
+     #block-block-65 h2{
+         padding-left:10px;
+     }
+     #block-views-quangcaocuoi-trangchu-block{
+         padding-left:15px;
+         padding-right:15px;
+     }
+     .group-tour-col2 .field-name-field-tour-quangcao{
+         margin-top:0;
+     }
+     .group-tour-thongtinchitiettour{
+        border-bottom: initial;
+        margin-bottom: 0;
+        padding-bottom: 0; 
+     }
+     .group-thongtintourht .group-tour-col2.field-group-div{
+         padding:0;
+     }
+     .node-type-tour .tieude.col-sm-8{
+         width:66%;
+     }
+}
+@media screen and (max-width:640px){
+    #block-views-tour-giahot-block-3 .views-row{
+        padding-right:0;
+    }
+    #block-views-tour-giahot-block-3 h2{
+        padding-left:10px;
+    }
+ #block-block-60 .banner-tg img{    
+   height: 218px;  
+ }
+  .node-tour .group-tour-thongtinchung .group-col1 .galleryformatter .gallery-thumbs,
+  .node-tour .group-tour-thongtinchung .group-col1 .galleryformatter{
+     width:620px !important;
+ }
+ .field-name-field-tour-hanhtrinh-view{
+     text-align:justify;
+ }
+  .node-tour .group-tour-thongtinchung .group-col1 .galleryformatter .gallery-slides{
+     width:620px !important;
+     height:328px !important;
+ }
+}
+@media screen and (max-width:480px){
+  .node-tour .group-tour-thongtinchung .group-col1 .galleryformatter .gallery-thumbs,
+  .node-tour .group-tour-thongtinchung .group-col1 .galleryformatter{
+     width:460px !important;
+ }
+  .node-tour .group-tour-thongtinchung .group-col1 .galleryformatter .gallery-slides{
+     width:460px !important;
+     height:288px !important;
+ }
+}
+@media screen and (max-width:375px){
+  .node-tour .group-tour-thongtinchung .group-col1 .galleryformatter .gallery-thumbs,
+  .node-tour .group-tour-thongtinchung .group-col1 .galleryformatter{
+     width:355px !important;
+ }
+  .node-tour .group-tour-thongtinchung .group-col1 .galleryformatter .gallery-slides{
+     width:355px !important;
+     height:255px !important;
+ }
+}
+@media screen and (max-width:360px){
+ #block-block-60 .banner-tg img{    
+   height: 165px;  
+ }
+ .node-tour .group-tour-thongtinchung .group-col1 .galleryformatter .gallery-thumbs,
+  .node-tour .group-tour-thongtinchung .group-col1 .galleryformatter{
+     width:340px !important;
+ }
+  .node-tour .group-tour-thongtinchung .group-col1 .galleryformatter .gallery-slides{
+     width:340px !important;
+     height:228px !important;
+ }
+}
+@media screen and (max-width:320px){
+ #block-block-60 .banner-tg img{    
+   height: 128px;  
+ }
+
+ .node-tour .group-tour-thongtinchung .group-col1 .galleryformatter .gallery-thumbs,
+ .node-tour .group-tour-thongtinchung .group-col1 .galleryformatter{
+     width:300px !important;
+ }
+  .node-tour .group-tour-thongtinchung .group-col1 .galleryformatter .gallery-slides{
+     width:300px !important;
+     height:200px !important;
+ }
+}
