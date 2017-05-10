@@ -1,8 +1,119 @@
-﻿@media screen and (max-width:800px){
-    .not-front .main-container h1.page-header{
+﻿#block-block-71 ul#myTabs1{
+    margin: 0 auto 10px;
+    max-width: 1140px;
+}
+#block-block-71 .tab_tieude{
+    display:inline-block;
+}
+#block-block-71 .tab_xemthem{
+    display: inline-block;
+    text-align: right;
+    width: 77%;
+}
+#block-block-71 ul#myTabs1 li.active a{
+     text-decoration: underline;
+}
+#block-block-71 ul#myTabs1 li a{
+ background:white !important;    
+ border:initial !important;
+ margin-top:12px;
+ color:#0090f3;
+ font-size:16px;
+}
+#block-block-71 ul#myTabs1 .title1{
+    margin-right:15%;
+}
+#block-block-71 ul#myTabs1 li{
+display: inline-block;
+margin-left: 10px;
+margin-top: 15px;
+}
+#block-block-71{
+    background:white;
+}
+#block-block-71 ul#myTabs1 h2{
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+@media screen and (max-width:800px){
+    body #block-views-khachhangchiase-block ol.flex-control-nav{
+        left:5px;
+        top:38%;
+    }
+    .node-khachsan .field-name-field-banner-khachsan{
+        margin-bottom:10px;
+    }
+     .node-khachsan .field-name-field-banner-khachsan img{
+        width:100%;
+        height:auto;
+    }
+    .node-khachsan .group-khachsan-hienthi .group-khachsan-col1{
+        padding-right:10px;
+        padding-right:10px;
+    }
+    .node-khachsan .field-name-field-khachsan-chiase{
+        float:initial;
+    }
+    .node-khachsan .fb_iframe_widget{
+        float:left;
+    }
+     .node-khachsan #___plus_0{
+         position:initial;
+     }
+     .node-khachsan .field-name-field-khachsan-chiase .field-items,
+     .node-khachsan .field-name-field-khachsan-chiase .field-item,
+     .node-khachsan .field-name-field-khachsan-chiase{
+         height: 28px;
+         margin-top: 42px;
+     }
+     .node-khachsan .field-name-field-khachsan-tongquan{
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: justify;
+     }
+     .node-khachsan .field-name-field-khachsan-albumanh{
+         padding-left:10px;
+         padding-right:10px;
+     }
+     #block-views-khachsankhac-block .views-row{
+         padding-left:10px;
+         padding-right:10px;
+     }
+     #block-views-khachsankhac-block h2.block-title{
+         margin-right:10px;
+         margin-left:10px;
+     }
+    .node-khachsan .group-khachsan-hienthi .group-khachsan-col2{
+        clear:both;
+    }
+    .group-khachsan-col2 .field-name-field-banner-tieude .tieude{
+         clear: both;
+         font-size: 16px;
+         padding-top: 10px;
+    }
+    #block-views-khachhangchiase-block .flexslider .slides img{
+        height:auto;
+        width:auto;
+        border-radius:auto !important;
+    }
+    html .not-front .main-container h1.page-header{
         font-size: 18px;
         margin-bottom: 10px !important;
         margin-right: 0;
+    }
+    .view-id-khachsan_danhsach.view-display-id-page .views-field-field-news-thumbnail{
+        padding-right:0;
+    }
+    .view-id-khachsan_danhsach.view-display-id-page .views-row{
+        padding-right:0;
+    }
+    .view-id-khachsan_danhsach.view-display-id-page .views-row .views-field-title-body-node{
+        padding-left:0 !important;
+        clear:both;
+    }
+    .view-id-khachsan_danhsach.view-display-id-page .views-row .title{
+        padding-top:10px;
     }
     .node-type-vemaybay .col-sm-12{
         padding-left:10px;
