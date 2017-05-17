@@ -169,7 +169,7 @@ text-align:right;
      position: relative
 }
 #block-block-60 .banner-tg img {
-    height: 488px;
+    height: 588px;
     object-fit: cover;
     width: 100%
 }
@@ -208,6 +208,7 @@ text-align:right;
 }    
 #block-block-60 .carousel-indicators{
    z-index: 9999999; 
+   bottom: 135px;
 }
 #block-block-60 .carousel-indicators li{
   margin-right:5px !important; 
@@ -345,11 +346,15 @@ position: relative;
 top: -5px; 
 }
 #block-views-tourgiochot-block h2{
-color: black;
+color: white;
 font-size: 25px;
 font-weight: bold;
 text-transform: uppercase;    
-margin-bottom:18px;
+background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
+margin: 19px 0 0;
+padding-bottom: 10px;
+padding-left: 10px;
+padding-top: 10px;
 } 
 #block-block-61 .hanchot .sochocon{
 display:inline-block;
@@ -382,8 +387,9 @@ font-weight:bold;
 #block-block-61 .giatot a{
 background:#1596fe;
 display:block;
-padding:2px 18px;
+padding:10px 28px;
 color:white;
+font-weight:bold;
 text-decoration:none;
 }
 #block-block-61 .giatot a:hover{
@@ -441,7 +447,7 @@ padding-top:5px;
 padding-bottom:5px;
 }
 #block-block-62{
-margin-top:33px;    
+margin-top:25px;    
 }
 #block-block-62 ul#myTabs li.active a{
 background-color: #005ba1;
@@ -470,9 +476,7 @@ font-style: italic;
 float:left;    
 }
 #block-block-61 #block-block-62 .tieude a{
-color:#333;
-font-size:14px;
-font-weight:normal;
+color:#444;
 }
 #block-views-khachsan-trangchu-block .attachment .views-row{
 float:left;
@@ -516,13 +520,16 @@ padding-bottom:8px;
 }
 #block-block-62 .attachment .gia{
 padding-left:0;    
+position: relative;
+top: -5px;
 }
 #block-block-60 .aoanh{
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 179px;
-    background: linear-gradient(transparent, #fff);
+position: absolute;
+bottom: 0;
+width: 100%;
+height: 179px;
+background: linear-gradient(transparent, #fff);
+display:none;
 }
 #block-block-62 .attachment .khachsan img{
 border:1px solid #ddd;    
@@ -637,7 +644,7 @@ position:absolute;
 top:-5px;
 }
 .view-tour-giahot .thongtin .noidung{
-padding:10px 15px;    
+padding:10px 10px;    
 line-height:22px;
 }
 .view-tour-giahot .thongtin .giatour{
@@ -1323,6 +1330,11 @@ text-decoration:none;
 .not-front .col-sm-8{
 padding-left:0px;    
 }
+.page-node-add-quick-booking h1.page-header,
+.page-node-add-booking h1.page-header,
+.not-front:not(.page-node) h1.page-header,
+.page-tour-gia-hot h1.page-header,
+.node-type-vemaybay h1.page-header,
 .page-timkiem-tourdulich h1.page-header,
 .page-ds-khach-san h1.page-header,
 #webform-client-form-791 h2,
@@ -1880,6 +1892,7 @@ color:#0090f3;
 }
 .node-tour .field-name-field-tour-anhnenhienthi{
 position: absolute;    
+width:100%;
 }
 .field-name-field-tour-tinlienquan .views-row {
  float: left;    
@@ -2052,7 +2065,7 @@ clear:both;
 background:initial;    
 padding:0px;
 font-size:12px; 
-color: #005ba1;
+color: white;
 font-weight:bold;
 }
 #block-block-62 .km{
@@ -2060,7 +2073,10 @@ display:inline-block;
 }
 #block-block-62 .km {
 font-size:12px;    
- color: red;
+color: #f8de01;
+}
+#block-block-62 .km span{
+color:white;    
 }
 #block-block-62 ul#myTabs li.tinkhuyenmai{
 padding:2px 10px;    
@@ -2071,7 +2087,7 @@ top: 3px;
 }
 #block-block-62 ul#myTabs li.tinkhuyenmai .giatu{
 position: relative;
-top: 2px;    
+top: 2px;  
 }
 #ui-datepicker-div{
 display:none;    
@@ -2106,7 +2122,7 @@ width: 100%;
 }
 #block-block-70 .timkiem_trangchu{
 margin: 35px auto 0;
-max-width: 1170px;    
+max-width: 1140px;    
 }
 #block-block-69,
 #block-views-exp-timkiemnangcao-page-1{
@@ -2153,13 +2169,13 @@ color: white;
 box-shadow:initial;
 }
 #views-exposed-form-timkiemnangcao-page-1 .form-submit{
-background: #1596fe none repeat scroll 0 0;
+background: #ffa800 none repeat scroll 0 0;
 float: right;
-font-size: 18px;
+font-size: 15px;
 font-weight: bold;
 margin: 10px 0 0;
-padding: 10px 35px;
-text-transform: uppercase;    
+padding: 10px 18px;
+text-transform: uppercase;  
 }
 #views-exposed-form-timkiemnangcao-page-1 .views-submit-button{
 width: 100%;    
@@ -2211,17 +2227,19 @@ text-transform: uppercase;
 padding-right:0;    
 }
 #block-block-69 #btnOk{
-background: #1596fe none repeat scroll 0 0;
+background: #ffa800 none repeat scroll 0 0;
 border: initial;
+border-radius: 2px;
 box-shadow: initial;
+display: block;
 float: right;
-font-size: 11px;
+font-size: 16px;
 font-weight: bold;
 height: auto !important;
-margin: 8px 0 0;
-padding: 9px 15px;
+padding: 10px 15px 10px 28px;
+text-align: right;
 text-transform: uppercase;
-width: auto !important;
+width: 200px !important;
 }
 #block-block-69 .From1{
 margin-bottom:10px;    
@@ -2283,7 +2301,7 @@ border-left: 1px solid white;
 color: white;
 }
 #block-block-69 .Adult .dotuoi{
-width:27%;
+width:33.333333333333333333333333333333333333333333333333333333%;
 float:left;
 margin-bottom:10px;
 }
@@ -2310,10 +2328,10 @@ clear:both;
 font-style:initial;    
 }
 #block-views-khachsan-trangchu-block-1 .attachment .views-row{
-border-bottom: 1px dotted #ddd;
+border-bottom: initial;
 float: left;
-margin-bottom: 10px;
-padding-bottom: 10px;    
+margin-bottom: 2px;
+padding-bottom: 2px;
 }
 #block-views-khachsan-trangchu-block-1 .datngay{
 margin-left: 5px;  
@@ -2384,4 +2402,269 @@ clear:both;
 }
 .view-tour-giahot .thongtin{
 margin-bottom:10px;    
+}
+.node-vemaybay .field-label{
+float:left;
+padding-right:13px;
+}
+.node-vemaybay .field-label-above{
+margin-bottom:5px;
+}
+.node-vemaybay .field-name-field-vemaybay-gia .field-item{
+color: #d00000;
+font-weight: bold;
+}
+#vemaybay_vina h2{
+    display:none;
+}
+#block-block-70 #edit-field-tour-khoihanh-value-wrapper label.control-label{
+    display:none;
+}
+#block-block-70 #views-exposed-form-timkiemnangcao-page-1 #edit-field-tour-khoihanh-value-wrapper {
+    width:100%;
+    padding-right:0;
+}
+#block-block-70 #views-exposed-form-timkiemnangcao-page-1 #edit-field-tour-khoihanh-value-wrapper #edit-field-tour-khoihanh-value-min-wrapper{
+    float: left;
+    padding-right: 15px;
+    width: 50%
+}
+#block-block-70 #views-exposed-form-timkiemnangcao-page-1 #edit-field-tour-khoihanh-value-wrapper #edit-field-tour-khoihanh-value-max-wrapper{
+    float: left;
+    width: 50%
+}
+#block-block-70 #views-exposed-form-timkiemnangcao-page-1 #edit-field-tour-khuyenmai-value-wrapper{
+    padding-right:0;
+}
+#block-block-70 #views-exposed-form-timkiemnangcao-page-1 #edit-field-tour-songay-tid-wrapper{
+    padding-right:15px;
+}
+#block-block-70  #views-exposed-form-timkiemnangcao-page-1 .views-submit-button{
+    width:50%;
+    padding-top:22px;
+}
+#block-block-70  #views-exposed-form-timkiemnangcao-page-1 #edit-field-tour-khoanggia-tid-wrapper{
+    padding-right:15px;
+}
+#block-block-70 #views-exposed-form-timkiemnangcao-page-1 #edit-field-tour-khoihanh-value-wrapper #edit-field-tour-khoihanh-value-max-wrapper .form-item-field-tour-khoihanh-value-max,
+#block-block-70 #views-exposed-form-timkiemnangcao-page-1 #edit-field-tour-khoihanh-value-wrapper #edit-field-tour-khoihanh-value-max-wrapper #edit-field-tour-khoihanh-value-max,
+#block-block-70 #views-exposed-form-timkiemnangcao-page-1 #edit-field-tour-khoihanh-value-wrapper #edit-field-tour-khoihanh-value-max-wrapper .form-item-field-tour-khoihanh-value-max-date{
+    width:100%;
+}
+#block-block-71 .view-empty{
+    color: #333;
+    font-style: italic;
+    margin: 15px auto 38px;
+    max-width: 1140px;
+}
+.ui-dialog.ui-corner-all{
+    z-index: 9999;
+}
+#block-block-7 .donghanh_tincay{
+background: #005ca1 none repeat scroll 0 0;
+color: white;
+font-size: 11px;
+font-style: italic;
+margin-right: 8px;
+padding: 5px 10px 0; 
+}
+#block-block-7 .donghanh_tincay:after{
+border-color: transparent #075698;
+border-style: solid;
+border-width: 5px 14px 1px 0;
+content: "";
+display: block;
+left: -24px;
+position: relative;
+top: -9px;
+width: 0;  
+}
+#block-block-69 .From1{
+position:relative;    
+clear: both;
+}
+#block-block-69 .From1 .glyphicon{
+position:absolute;
+right:28px;
+}
+#block-block-69 .thoigian{
+position:relative;
+}
+#block-block-69 .thoigian .glyphicon{
+padding: 11px 10px 10px;
+position: absolute;
+right: 2px;    
+}
+#block-block-69 .timkiem{
+clear: both;
+height: 45px;
+margin-bottom: 10px;
+margin-top: 18px;
+position: relative;
+}
+#block-block-69 .timkiem .glyphicon.glyphicon-search{
+padding: 13px 0;
+position: absolute;
+right: 165px;   
+}
+#block-block-69 .Adult{
+height:65px;    
+}
+#block-block-69 .timkiem a{
+color: #89ccff;
+font-family: arial;
+font-size: 14px;
+position: relative;
+top: 10px;   
+}
+#block-block-69 .timkiem .label{
+padding-left:0;    
+}
+#block-block-69 #vemaybay_vina .tieude{
+float: left;
+font-style: italic;
+padding-right: 33px;    
+}
+#block-block-69 #vemaybay_vina .radio{
+position: relative;
+top: 3px;    
+}
+#block-block-70 #myTabs1 .glyphicon {
+padding-right:5px;    
+}
+#block-block-61 {
+margin-top: -155px;    
+}
+#block-views-exp-timkiemnangcao-page-1,
+#block-block-69 {
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+border-top-right-radius: 5px;    
+}
+#block-block-70 #myTabs1 li a{
+border-top-right-radius: 5px;  
+border-top-left-radius: 5px;  
+}
+#block-views-khachsan-trangchu-block-1 .tieude a{
+font-size: 12px;
+font-weight: bold;    
+}
+#block-views-khachsan-trangchu-block-1 .chang{
+color: #555;
+font-family: arial;
+font-size: 15px;    
+}
+#block-views-khachsan-trangchu-block-1  .giatu{
+padding-top:2px;    
+}
+#block-views-khachsan-trangchu-block-1  .giatu span{
+color: #555;    
+}
+#block-views-khachsan-trangchu-block-1 .star1-on{
+ background: rgba(0, 0, 0, 0) url("star.png") no-repeat scroll 0 -97px;    
+}
+#block-views-khachsan-trangchu-block .tieude a{
+font-size:13px;    
+}
+#block-block-62 #home{
+padding-top:10px;    
+}
+:not(.page-node) .view-clone-of-danh-sach-bang-gia tbody tr td{
+padding-left: 18px !important;
+text-align: left !important;    
+width:20% !important;
+}
+:not(.page-node) .view-clone-of-danh-sach-bang-gia caption a{
+color: #1596fe;
+font-size: 15px;
+font-weight: bold;
+text-transform: uppercase;   
+text-decoration:none;
+}
+:not(.page-node) .view-clone-of-danh-sach-bang-gia caption a span{
+color: #d00000;
+font-size: 10px;
+padding-right: 5px;
+position: relative;
+top: -1px;    
+}
+:not(.page-node) .view-clone-of-danh-sach-bang-gia thead tr th:nth-child(2n-1){
+background: white;
+color: #075698;
+text-align: center;    
+ padding: 15px 5px;
+}
+:not(.page-node) .view-clone-of-danh-sach-bang-gia thead tr th:nth-child(2n){
+background: white;
+color: #075698;
+text-align: center;
+padding: 15px 5px;
+}
+:not(.page-node) .view-clone-of-danh-sach-bang-gia tbody tr td:nth-child(2n){
+color: #5e5e5e;
+text-align: center;
+padding: 10px 5px 15px;
+font-weight:normal;
+}
+:not(.page-node) .view-clone-of-danh-sach-bang-gia tbody tr td:nth-child(2n-1){
+color: #5e5e5e;
+text-align: center;
+padding: 10px 5px 15px;
+font-weight:normal;
+}
+:not(.page-node) .view-clone-of-danh-sach-bang-gia tbody .views-field-field-banggia-giatreem,
+:not(.page-node) .view-clone-of-danh-sach-bang-gia tbody .views-field-field-banggia-gianguoilon{
+color: #d00000 !important;
+font-weight: bold !important;
+text-align: center !important;    
+}
+:not(.page-node) .view-clone-of-danh-sach-bang-gia .views-field-php{
+text-align:center !important;    
+}
+:not(.page-node) .view-clone-of-danh-sach-bang-gia .views-field-php a{
+background: #1596fe none repeat scroll 0 0;
+border-radius: 2px;
+color: white;
+font-family: arial;
+font-size: 12px;
+font-weight: bold;
+padding: 8px 15px;
+text-decoration: none;
+text-transform: uppercase;    
+}
+:not(.page-node) .view-clone-of-danh-sach-bang-gia .views-field-php a.banggia-lienhe{
+background:#d00000;    
+padding: 8px 22px;
+}
+:not(.page-node) .view-clone-of-danh-sach-bang-gia caption a:hover{
+color:#d00000;    
+}
+#block-block-70 .chosen-container .chosen-single{
+background: #005ba1 none repeat scroll 0 0;
+border: 1px solid white;
+border-radius: initial;
+box-shadow: initial;
+color: white;
+height: auto;
+padding: 7px 10px;    
+}
+#block-block-70 .chosen-drop{
+background: #005ba1;    
+}
+#block-block-70 .chosen-drop{
+padding-left:0px;
+margin-right:0;
+}
+#block-block-70 .chosen-drop input{
+color:white;    
+}
+#block-block-70 .chosen-drop ul li{
+color:white;    
+}
+#block-block-69 .From1 .chosen-single span{
+padding:0px;    
+}
+#block-block-69 .From1 .glyphicon{
+position: absolute;
+right: 35px;
 }
