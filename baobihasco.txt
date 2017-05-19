@@ -1,0 +1,145 @@
+﻿body{
+    background: rgba(0, 0, 0, 0) url("/images/baobihasco/bg_baobihasco.jpg") repeat scroll 0 0;
+    padding-top: 0 !important;  
+}
+body #navbar{
+    position:initial !important;
+    margin-bottom:0;
+    background:initial;
+}
+body #navbar .container-fluid{
+    box-shadow:initial;    
+}
+body #block-block-15{
+    padding-top:13px;    
+}
+body #block-tb-megamenu-main-menu .nav-collapse ul li a{
+    font-size: 16px;
+    font-family: Cambria,Georgia,serif;
+    padding: 40px 5px 5px;
+    text-transform: uppercase;  
+    border-top:initial;
+}
+body #block-tb-megamenu-main-menu .nav-collapse ul li{
+    padding-left:35px;
+}
+body #block-tb-megamenu-main-menu .nav-collapse ul li a:hover{
+    border-top:initial;    
+    border-bottom: 3px solid #b62025;
+    color: #b62025;
+}
+.html .footer.container-fluid{
+    background: #2e2a2b none repeat scroll 0 0;
+    color: white;    
+}
+#block-block-19 a{
+    color:white;
+    font-size:13px;
+}
+#block-block-18 .tieude{
+font-size: 20px;
+font-weight: bold;
+padding-bottom: 11px;    
+}
+#block-block-18 .diachi span.glyphicon{
+color:white;    
+font-size:10px;
+}
+#block-block-18 .copyright,
+#block-block-18 .diachi{
+font-size:13px;
+}
+#block-views-sanpham-slide-block .slick-next{
+right:0 !important;    
+}
+#block-views-sanpham-slide-block .slick-prev{
+left:0 !important;   
+z-index:999;
+}
+#block-views-sanpham-slide-block .views-row{
+width:588px !important;    
+}
+#block-views-sanpham-slide-block .views-row .noidung{
+position: relative;    
+}
+#block-views-sanpham-slide-block .views-row img{
+height: auto;
+width: 250px;    
+display: inline-block;
+}
+#block-views-sanpham-slide-block img { 
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter:         drop-shadow(5px 5px 5px #222); 
+}
+#block-views-sanpham-slide-block .views-row .anhsp{
+    text-align:center;
+}
+#block-views-sanpham-slide-block{
+    padding-top:35px;    
+}
+#block-views-sanpham-slide-block .views-row .thongtin{
+    background: rgba(255, 255, 255, 0.79) none repeat scroll 0 0;
+    padding: 15px 25px;
+    position: absolute;
+    text-align: center;
+    top: 34%;
+    width: 100%;    
+}
+#block-views-sanpham-slide-block .views-row .thongtin{
+    display:none;    
+    font-size:14px;
+}
+#block-views-sanpham-slide-block .views-row.slick-current .thongtin{
+    display:block;    
+}
+#block-views-sanpham-slide-block .views-row .tieude a{
+color: black;
+font-size: 25px;
+font-weight: bold;
+text-decoration: none;    
+}
+#block-views-sanpham-slide-block .views-row .label{
+color: #666;
+display: block;
+float: left;
+font-size: 13px;
+font-weight: bold;
+text-align: right;
+width: 158px;
+padding-bottom:8px;
+}
+#block-views-sanpham-slide-block .views-row .thongtin div{
+clear:both;    
+}
+#block-views-sanpham-slide-block .views-row .content_1 {
+margin: 0 auto;
+max-width: 375px;    
+}
+#block-views-sanpham-slide-block .views-row .text{
+float:left;    
+display:block;
+}
+#block-views-sanpham-slide-block .tieude{
+padding-bottom:5px;    
+}
+#block-views-sanpham-slide-block .views-row .tieude a:hover{
+color:#B62025;    
+}
+.slick-dots{
+display:none !important;    
+}
+#block-views-sanpham-slide-block .views-row{
+    position: relative;
+    height: 488px;
+}
+#block-views-sanpham-slide-block .views-row .views-field{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+#block-views-vechungtoi-block{
+font-size: 17px;
+margin: 42px auto 55px;
+max-width: 750px;
+text-align: center;    
+}
