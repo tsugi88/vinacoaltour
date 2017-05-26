@@ -49,12 +49,27 @@ font-size:10px;
 #block-block-18 .diachi{
 font-size:13px;
 }
+#block-views-sanpham-slide-block .slick-next:before,
+#block-views-sanpham-slide-block .slick-prev:before{
+content:initial !important;    
+}
 #block-views-sanpham-slide-block .slick-next{
-right:0 !important;    
+right:0px !important;    
+z-index:999;
+/*background: rgba(0, 0, 0, 0) url("http://kovictravel.com/images/thangloi/next-1.png") no-repeat scroll 0 0;*/
+color: transparent;
+display: block;
+height: 488px;
+width: 228px;
 }
 #block-views-sanpham-slide-block .slick-prev{
-left:0 !important;   
+left:0px !important;   
 z-index:999;
+/*background: rgba(0, 0, 0, 0) url("http://kovictravel.com/images/thangloi/pre-1.png") no-repeat scroll 0 0;*/
+color: transparent;
+display: block;
+height: 488px;
+width: 228px;
 }
 #block-views-sanpham-slide-block .views-row{
 width:588px !important;    
@@ -139,7 +154,325 @@ display:none !important;
 }
 #block-views-vechungtoi-block{
 font-size: 17px;
-margin: 42px auto 55px;
+margin: 42px auto 19px;
 max-width: 750px;
 text-align: center;    
+color:black;
+}
+#block-views-vechungtoi-block .views-field-view-node a{
+background: rgba(0, 0, 0, 0) url("/images/baobihasco/icon_vect.png") no-repeat scroll right center;
+color: #b62025;
+font-size: 15px;
+padding-bottom: 3px;
+padding-right: 33px;
+padding-top: 3px;  
+}
+#block-views-vechungtoi-block .views-field-view-node{
+padding-top:20px;    
+}
+#block-block-19 .bando{
+margin-top: -105px;    
+}
+#block-views-sanpham-cuachungtoi-block {
+margin: 0 auto;
+max-width: 960px;    
+}
+#block-views-sanpham-cuachungtoi-block h2.block-title{
+font-family: Cambria,Georgia,serif;
+font-size: 28px;
+margin-bottom: 18px;
+text-align: center;
+text-transform: uppercase;    
+}
+#block-views-sanpham-cuachungtoi-block .noidung{
+float: left;
+position: relative;    
+}
+#block-views-sanpham-cuachungtoi-block .tieude{
+bottom: 10%;
+position: absolute;    
+}
+#block-views-sanpham-cuachungtoi-block .views-row:nth-child(2n-1) .tieude a{
+background: #b61f24 url("/images/baobihasco/next_dmsp.png") no-repeat scroll right 28px center;
+border-radius: 38px;
+color: white;
+font-family: Cambria,Georgia,serif;
+font-size: 28px;
+font-weight: bold;
+padding: 10px 66px 15px 33px;
+text-decoration: none;
+}
+#block-views-sanpham-cuachungtoi-block .views-row:nth-child(2n-1) .tieude{
+bottom: 15%;
+left: -33px;
+position: absolute;    
+}
+#block-views-sanpham-cuachungtoi-block .views-row:nth-child(2n) .tieude a{
+background: #b61f24 url("/images/baobihasco/next_dmsp.png") no-repeat scroll right 28px center;
+border-radius: 38px;
+color: white;
+font-family: Cambria,Georgia,serif;
+font-size: 28px;
+font-weight: bold;
+padding: 10px 66px 15px 33px;
+text-decoration: none;
+}
+#block-views-sanpham-cuachungtoi-block .views-row:nth-child(2n) .tieude{
+bottom: 15%;
+right: -33px;
+position: absolute;    
+}
+#block-views-sanpham-cuachungtoi-block .views-row:nth-child(2n-1){
+padding-right:10px;    
+}
+#block-views-sanpham-cuachungtoi-block .views-row:nth-child(2n){
+padding-left:10px;    
+}
+#block-views-sanpham-cuachungtoi-block .views-row{
+margin-bottom:20px;    
+}
+#block-block-29 {
+margin: 0 auto;
+max-width: 960px;    
+}
+#block-views-video-block .noidung{
+position: relative;    
+}
+#block-views-video-block .noidung .thongtin{
+color: white;
+position: absolute;
+text-align: center;
+top: 25%;
+width: 100%;
+}
+#block-views-video-block .noidung .tieude a{
+color: white;
+font-size: 18px;
+font-weight: bold;    
+}
+#block-views-video-block .noidung .tieude{
+margin: 0 auto;
+max-width: 488px;   
+padding-bottom: 10px;
+padding-top: 10px;
+}
+#block-views-video-block .nen_anh{
+background: rgba(0, 0, 0, 0.42) none repeat scroll 0 0;
+display: block;
+height: 100%;
+position: absolute;
+top: 0;
+width: 100%;    
+}
+#block-views-video-block .noidung .play_video a{
+background: rgba(0, 0, 0, 0) url("http://thamdinhgiathanhdo.com/images/thamdinhgiathanhdo/play.png") no-repeat scroll 0 0;
+display: inline-block;
+font-size: 0;
+height: 85px;
+width: 85px;        
+}
+#block-views-video-block .thoigian .glyphicon{
+font-size:13px;    
+padding-right:5px;
+}
+#block-views-video-block .thoigian {
+font-size: 14px;
+font-style: italic;    
+}
+#block-block-29 .listvideo{
+padding:0px; 
+background:#2E2A2B;
+padding-left:8px;
+padding-top:8px;
+height: 350px;
+overflow-x: auto;
+}
+#block-block-29 .videochinh{
+padding-right:0;    
+}
+#block-views-video-block-1 .anhdd{
+float: left;
+width: 38%;    
+}
+#block-views-video-block-1 .views-row{
+clear: both;
+padding-bottom: 8px;    
+float:left;
+}
+#block-views-video-block-1 .thoigian{
+font-size: 13px;
+font-style: italic;    
+color:white;
+}
+#block-views-video-block-1 .glyphicon{
+font-size: 12px;
+padding-right: 5px;    
+}
+#block-views-video-block-1 .tieude a{
+color:white;    
+font-size:13px;
+font-weight: bold;
+}
+#block-views-video-block-1 .tieude{
+line-height: 16px;
+padding-bottom: 5px;    
+}
+#block-views-video-block-1 .thongtin{
+float: left;
+padding-left: 5px;
+width: 62%;    
+}
+#block-views-video-block .nen_anh img,
+#block-views-video-block .nen_anh{
+height:350px;    
+}
+#block-block-31 .content{
+margin: 0 auto;
+max-width: 960px;    
+}
+#block-block-31 .views-row{
+padding-left:0;    
+}
+#block-block-31{
+background: rgba(0, 0, 0, 0) url("/images/baobihasco/bg_tintuc.jpg") repeat scroll 0 0;    
+}
+#block-views-tintuc-trangchu-block{
+background: white none repeat scroll 0 0;
+padding: 10px 25px 35px 35px;    
+margin-top: 35px;
+}
+#block-views-tintuc-trangchu-block h2{
+color: #b51e23;
+font-family: Cambria,Georgia,serif;
+font-size: 28px;
+font-weight: bold;
+margin-bottom: 10px;
+text-transform: uppercase;    
+}
+#block-views-tintuc-trangchu-block .tieude a{
+font-size: 16px;
+font-weight: bold;    
+}
+#block-views-tintuc-trangchu-block .tieude{
+clear: both;
+padding-bottom: 5px;
+padding-top: 5px;    
+}
+#block-views-tintuc-trangchu-block .mota{
+color: #888;
+font-size: 13px;   
+text-align: justify;
+}
+#block-views-tintuc-trangchu-block .xemthem{
+padding-top:13px;    
+}
+#block-views-tintuc-trangchu-block .xemthem a{
+background: rgba(0, 0, 0, 0) url("/images/baobihasco/icon_vect.png") no-repeat scroll right center;
+color: #b51e23;
+display: inline-block;
+height: 25px;
+padding-right: 33px;
+text-decoration: none;
+} 
+#block-views-tintuc-trangchu-block .tieude a{
+text-decoration: none;    
+}
+#block-views-tintuc-trangchu-block .tieude a:hover{
+color:#b51e23;   
+}
+#block-block-31 {
+padding-bottom:88px;
+margin-top: -77px;
+}
+.social_1 ul li {
+list-style:none;    
+display:inline-block;
+margin-right:5px;
+}
+.social_1 ul{
+padding-left:0;    
+}
+#block-block-30 {
+margin-top: 110px;    
+color:white;
+}
+#block-block-30 .hoptac_nhucau{
+ font-size: 21px;    
+}
+#block-block-30 .hotline{
+font-size: 35px;
+font-weight: bold;    
+}
+#block-block-30 .hotline .glyphicon{
+font-size: 20px;
+position: relative;
+top: -3px;    
+}
+#block-block-30 .mail_lienhe{
+font-size:19px;    
+margin-bottom:5px;
+}
+#block-webform-client-block-596 .webform-component-email{
+float: left;
+width: 188px;    
+}
+#block-webform-client-block-596 .form-actions{
+clear: initial;
+float: left;    
+}
+#block-webform-client-block-596 .form-submit{
+background: #b61f24 url("/images/baobihasco/next_dmsp.png") no-repeat scroll center center;
+border: initial;
+color: transparent;
+font-size: 0;
+padding: 19px 22px 20px;    
+}
+#block-views-video-block .anhdd img{
+height:350px;    
+}
+body #block-views-tin-lien-quan-block h2,
+.node-type-news .page-header{
+border-bottom: 1px solid white;    
+}
+#block-views-tin-lien-quan-block {
+margin-top:28px;    
+}
+html .node-type-news .region-content{
+  margin-left:0px !important;  
+}
+body #block-views-tin-lien-quan-block h2, .node-type-news .page-header{
+margin-left:0;    
+}
+.node-type-news .main-container{
+margin: 0 auto;
+max-width: 1200px;    
+}
+#block-views-tin-lien-quan-block h2.block-title{
+text-transform: uppercase;   
+}
+#block-views-tin-lien-quan-block .tieude a{
+font-size: 15px;
+font-weight: bold;    
+}
+#block-views-tin-lien-quan-block .views-row{
+border-bottom: 1px dotted white;
+padding-bottom: 10px;    
+}
+body.node-type-news h1.page-header{
+margin-bottom:10px;    
+}
+.not-front .main-container{
+margin-bottom:88px;    
+}
+.view-news-page-col-2 .views-column{
+background: white none repeat scroll 0 0;
+border: initial;
+border-radius: 2px;    
+}
+.page-taxonomy h1.page-header{
+background: #f9aa1a none repeat scroll 0 0;
+font-weight: bold;
+margin-bottom: 5px;
+padding: 20px;
+text-transform: uppercase;    
 }
